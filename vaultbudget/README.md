@@ -1,28 +1,48 @@
 # VaultBudget
 
-This folder contains a safe source-package handoff for the VaultBudget React/Vite finance app.
+This folder is a GitHub handoff stub for the VaultBudget React/Vite finance app.
 
-## What is included
+## Current status
 
-- `source/vaultbudget-source.zip.b64.part01` through `part04`: base64 chunks of the source zip.
-- `scripts/restore-vaultbudget-source.ps1`: PowerShell script that rebuilds `vaultbudget-source.zip` from the chunks.
-- `.env.local` is intentionally excluded. Use the app's `.env.example` after restoring the source.
+The production source currently lives on the local machine at:
 
-## Restore locally
+`C:\Users\dhyey\OneDrive\Documents\save`
 
-From this repository root:
+The clean publish packages are available locally at:
 
-```powershell
-powershell -ExecutionPolicy Bypass -File .\vaultbudget\scripts\restore-vaultbudget-source.ps1
-Expand-Archive -Path .\vaultbudget\vaultbudget-source.zip -DestinationPath .\vaultbudget\source-restored -Force
-cd .\vaultbudget\source-restored
-npm install
-npm run verify:release
-npm run dev
-```
+- `C:\Users\dhyey\OneDrive\Documents\save\publish\vaultbudget-source.zip`
+- `C:\Users\dhyey\OneDrive\Documents\save\publish\vaultbudget-netlify-dist.zip`
 
-## Current app status
+`.env.local` is intentionally excluded from the source package. Use `.env.example` and add only public `VITE_SUPABASE_URL` and `VITE_SUPABASE_ANON_KEY` values.
 
-- Built with React, Vite, Tailwind-style CSS, Recharts, Lucide icons, localStorage persistence, and Supabase auth/cloud-save support.
-- Supabase is configured for manual sync by default to stay within free-tier usage.
-- Netlify is the selected deployment target.
+## What is built
+
+- React + Vite app with six tabs: Home, Transactions, Goals, Reports, Profile, Settings.
+- Premium dark fintech UI, updated with the Lovable/Base44-inspired Home dashboard direction.
+- Local-first storage using `localStorage`.
+- Optional Supabase email auth and manual-first cloud backup.
+- Supabase RLS schema with manual sync default to protect free-tier usage.
+- CSV export, KPI CSV export, text report export, and JSON backup.
+- Netlify config and security headers.
+
+## Verified locally
+
+`npm run verify:release` passes the release gate:
+
+- smoke checks
+- Supabase schema checks
+- production build
+- publish checks
+- Netlify config checks
+- GitHub workflow checks
+- security checks
+
+## Publish blocker
+
+The connected GitHub app currently has access only to `dvilrgamerz/dvilrgamerz`. It does not expose a tool here to create a new `dvilrgamerz/vaultbudget` repository, and local `git` / `gh` are not installed on the machine.
+
+To finish a real app repo upload, create or authorize a `dvilrgamerz/vaultbudget` repository, then upload `vaultbudget-source.zip` or push from the local workspace after installing Git.
+
+## Netlify blocker
+
+Netlify deploy is selected, but the CLI authorization ticket has not completed in this session. You can still deploy manually by uploading `vaultbudget-netlify-dist.zip` in the Netlify dashboard.
