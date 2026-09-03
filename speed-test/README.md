@@ -1,216 +1,179 @@
-# ⚡ DVILR SPEED X v4
+# ⚡ DVILR SPEED X v4.1
 
-A premium, browser-based internet speed and diagnostics experience focused on speed, latency, stability, gaming, streaming, work, and understandable results.
+Premium browser-based internet speed and connection diagnostics.
 
-> **Important:** DVILR SPEED is a browser benchmark, not a replacement for ISP-grade network instrumentation or ICMP-level measurement. Results can vary with Wi-Fi, device performance, browser behavior, server/edge distance, congestion, VPNs, and background traffic. Never present the DVILR Health Score as an industry-standard certification.
+## What v4.1 includes
 
-## 🚀 V4 feature set
+### Speed testing
+- Download speed measurement with live samples.
+- Upload speed measurement.
+- Ping/round-trip timing approximation using HTTPS requests.
+- Jitter calculation from repeated browser-safe timing samples.
+- Packet-loss approximation when HTTPS probes fail.
+- Live speed display, progress bar and graph.
+- Configurable 4/6/10 second test duration.
+- Final result is calculated from measured bytes/time rather than a fake fixed number.
+- Mbps and Gbps display options.
+- Test state prevents duplicate simultaneous runs.
+- Request timeouts and bounded browser-side work reduce runaway requests.
 
 ### Test modes
-- ⚡ **Quick Test** — fast everyday benchmark
-- 🎮 **Gaming Test** — latency, jitter, packet-loss approximation, loaded latency, and stability
-- 🎥 **Streaming Test** — 1080p, 1440p, 4K, and multi-stream suitability estimates
-- 💼 **Work Test** — video calls, uploads, latency, and connection stability
-- 🧪 **Advanced Test** — expanded browser diagnostics
+- **Quick** — fast general connection check.
+- **Gaming** — emphasizes ping, jitter and loss suitability.
+- **Streaming** — evaluates practical 1080p/1440p/4K readiness from measured download speed.
+- **Work** — evaluates video-call/file-transfer suitability.
+- **Advanced** — exposes the full diagnostics dashboard.
 
-### Professional test engine
-- Download speed
-- Upload speed
-- Ping / HTTPS round-trip latency
-- Jitter
-- Packet-loss approximation
-- Latency-under-load / bufferbloat-style measurement
-- Connection stability
-- Multi-sample measurements and trimmed latency samples
-- Configurable test duration
-- Live progress and live speed visualization
-- Graceful failure handling when an endpoint is unavailable
+The mode labels change the workflow intent and result presentation; they do not magically create separate ISP-grade test infrastructure.
 
-### 🌎 Endpoint information
-- Cloudflare edge/region detection when the browser endpoint exposes it
-- Endpoint latency
-- Endpoint health indicator
-- Browser-safe endpoint comparison
-- Server/endpoint selection UI
+### Internet Health
+- 0–100 health score.
+- Download, upload, ping, jitter, loss and stability category scores.
+- Human-readable Excellent / Great / Good / Fair / Poor rating.
+- Real-world gaming, streaming and video-call guidance.
 
-> Browser-only apps cannot reliably expose a complete ISP/server inventory like a dedicated native speed-test client. Endpoint labels are therefore kept honest and are not presented as a proprietary ISP network map.
+### Endpoint and diagnostics
+- Automatic Cloudflare edge/region detection through the browser-safe trace endpoint.
+- Endpoint response timing.
+- Diagnostics Lab with HTTPS response, loaded latency, loss approximation and stability indicators.
+- Server panel explains the fixed endpoint architecture instead of accepting arbitrary URLs.
 
-### 📊 Live dashboard
-- Current speed
-- Average speed
-- Peak speed
-- Lowest observed speed
-- Progress
-- Live graph
-- Latency graph
-- Download/upload/ping/jitter cards
+### Device/network information
+- Online/offline state.
+- Browser Network Information API data when the browser exposes it.
+- Effective connection type and estimated link speed when available.
+- Save-Data preference when available.
+- Platform and screen-size information.
+- No raw IP address is intentionally stored by the application.
 
-### 🧠 DVILR Internet Health Score
-A transparent **0–100 DVILR score** combining:
-- Download
-- Upload
-- Ping
-- Jitter
-- Packet-loss approximation
-- Stability
+### History and sharing
+- Local-only test history, capped at the most recent 50 results.
+- Best, average and simple trend indicators.
+- History is rendered with DOM text nodes rather than inserting stored values as executable HTML.
+- Share Result modal.
+- Clipboard copy when browser permission allows it.
+- Native Web Share API when supported.
 
-The score is a product metric for easier interpretation, not a formal internet-quality standard.
+### Connection Advisor
+- Safe troubleshooting checklist for Wi-Fi placement, heavy traffic, network equipment restart and retesting.
+- Does not remotely modify routers, DNS, ISP settings or devices.
 
-### 🎮 Gaming quality
-Estimates connection suitability for:
-- Fortnite
-- Valorant
-- Call of Duty
-- Cloud gaming
+### Settings
+The v4.1 Settings button is explicitly bound with `addEventListener()` and no longer uses the conflicting `settings()` function name.
 
-These are suitability estimates, not guarantees of in-game ping or matchmaking quality because actual game servers, routing, and game networking differ.
+Settings include:
+- Test duration: 4 / 6 / 10 seconds.
+- Mbps / Gbps display units.
+- Motion preference.
+- Clear local history.
 
-### 🎥 Streaming quality
-Estimates suitability for:
-- 1080p
-- 1440p
-- 4K
-- Multiple simultaneous streams
+The modal also supports Escape-to-close, backdrop close, focus return, and buttons with explicit `type="button"`.
 
-### 💼 Work quality
-Checks practical suitability for:
-- Video calls
-- Discord
-- File uploads
-- Remote-work style traffic
+## Security hardening
 
-### 📱 Device & network diagnostics
-When supported by the browser:
-- Online/offline state
-- Wi-Fi/cellular or browser connection type
-- Effective connection type
-- Browser-reported downlink estimate
-- Save-Data preference
-- Device/browser information
+The static frontend is designed to minimize attack surface:
 
-Browser APIs are optional and may be unavailable or intentionally limited by the browser.
+- No frontend API keys or service-role secrets.
+- No passwords or authentication credentials.
+- No database connection from the browser.
+- No arbitrary user-supplied measurement URLs.
+- Fixed HTTPS endpoints only.
+- `cache: no-store` and `credentials: omit` for measurement requests.
+- `redirect: error` for measurement fetches.
+- AbortController-based request timeouts.
+- No third-party JavaScript dependency.
+- Local history only.
+- Stored history is validated before use.
+- User-controlled stored values are rendered through `textContent`/DOM APIs.
+- Duplicate test execution is blocked while a test is running.
+- Reduced-motion support is retained.
+- Security headers are defined in `speed-test/_headers`.
+- Privacy, security reporting, and product limitations are documented in separate policy files.
 
-### 📈 Advanced history
-Results are stored locally in the browser and can include:
-- Date/time
-- Download
-- Upload
-- Ping
-- Jitter
-- Packet loss
-- Loaded latency
-- Health score
-- Quality rating
-- Stability
+## HTTP security headers
 
-The app does **not** require an account for local history.
+`_headers` provides production-oriented controls including:
 
-### 📤 Share results
-- Share result through the browser Share API when available
-- Copy result text
-- Result summary card
-- Download/share workflows where supported by the browser
+- Content-Security-Policy.
+- X-Content-Type-Options: nosniff.
+- X-Frame-Options: DENY.
+- Strict Referrer-Policy.
+- Permissions-Policy.
+- HSTS.
+- Cross-origin isolation-related policies.
 
-### 🔧 Connection troubleshooting
-Rule-based suggestions can identify patterns such as:
-- High latency
-- High jitter
-- Packet loss
-- Poor upload
-- Unstable connection
-- Potential Wi-Fi congestion
+The current single-file architecture still requires inline CSS/JavaScript, so the CSP contains an inline allowance. A future external-asset migration can tighten this further with nonces/hashes and removal of inline execution.
 
-Suggestions are informational and cannot remotely repair a router, ISP connection, device, or network.
+## Important accuracy limitations
 
-### 🧪 Diagnostics Lab
-Browser-safe checks for:
-- DNS/HTTPS response behavior
-- Packet-loss approximation
-- Loaded latency
-- Stability
-- Endpoint response comparison
+This is a browser speed test, not an ISP laboratory instrument.
 
-## 🔐 Security hardening
+- Browser timing is not ICMP ping.
+- Packet loss is an HTTPS-request approximation.
+- The browser and operating system can add measurement overhead.
+- Wi-Fi interference, cellular conditions, VPNs, browser throttling, device load and congestion can change results.
+- Endpoint distance and server load affect measurements.
+- Upload/download tests consume bandwidth while running.
+- The Network Information API is optional and browser-dependent.
+- A high score is an estimate of measured quality, not a guarantee of a specific gaming ping, streaming experience or ISP performance.
 
-DVILR SPEED is designed as a **static, client-side web application** with no login, database, payment system, or server-side user account in this project. That reduces attack surface, but **no website can honestly be promised to be impossible to hack**.
+## Privacy
 
-Security practices include:
+The app is intentionally static and does not require an account. Test history is stored locally in the browser. Measurement traffic goes to the fixed HTTPS test endpoints required by the app. See `PRIVACY.md` for the product privacy notice.
 
-- No passwords or API keys embedded in the frontend
-- No authentication secrets stored in source code
-- No server-side database exposed by this static app
-- No arbitrary code execution feature
-- No third-party JavaScript dependency required for the core app
-- Local-only history by default
-- No intentional collection of test-history data to a DVILR server
-- Security-oriented HTTP headers are provided for Netlify/static hosting
-- Referrer Policy limits unnecessary referrer disclosure
-- Permissions Policy limits browser capabilities not needed by the app
-- MIME sniffing protection is enabled through response headers
-- Clickjacking protection is enabled through `frame-ancestors` / X-Frame-Options headers
-- Content Security Policy is configured for the static application and its required measurement endpoints
-- Cache behavior is restricted for sensitive app responses where appropriate
-- External measurement requests use cache-busting and no-store behavior where supported
-- The UI avoids trusting network responses as executable HTML
+## Safety and legal limitations
 
-### ⚠️ Security limitation
-A static frontend cannot protect secrets because **anything shipped to a browser is public**. Never add private API keys, passwords, database service-role keys, signing secrets, or administrator credentials to this repository.
+No website can honestly be promised to be "impossible to hack," completely risk-free, or guaranteed to prevent every legal claim. Security controls reduce risk; they do not eliminate it.
 
-For a future backend, use environment-managed secrets, authentication, authorization, rate limiting, input validation, logging/alerting, CSRF protections where applicable, secure cookies, dependency auditing, and server-side access controls.
+The included `TERMS.md` and `PRIVACY.md` are product documentation, not legal advice and not a substitute for a qualified attorney. Before commercial launch, review applicable privacy, consumer-protection, accessibility, advertising, intellectual-property and other laws for the actual jurisdiction and business model.
 
-The security approach is aligned with the categories emphasized by **OWASP Top 10:2025**, including broken access control, security misconfiguration, supply-chain failures, cryptographic failures, injection, insecure design, authentication failures, data integrity, logging/alerting, and exceptional-condition handling. citeturn0search3
+## GitHub security recommendations
 
-## 🛡️ GitHub repository protection
+For a public repository, enable GitHub Secret Scanning and Push Protection where available. Do not commit API keys, passwords, private certificates, database service-role keys, session secrets or other credentials.
 
-Recommended repository settings:
+If a backend is added later:
 
-1. Enable **Secret scanning**.
-2. Enable **Push protection** so supported secrets are blocked before they reach the repository.
-3. Review Security / Dependabot alerts regularly.
-4. Use strong account security and 2FA/passkeys on the GitHub account.
-5. Never bypass a real secret alert. Revoke/rotate exposed credentials immediately.
-6. Keep deployment credentials outside source files.
-7. Review GitHub Actions permissions before adding workflows.
+1. Keep secrets server-side in environment/secret management.
+2. Authenticate and authorize sensitive operations.
+3. Validate every input server-side.
+4. Apply rate limits and abuse controls.
+5. Log security events without logging secrets or unnecessary personal data.
+6. Keep dependencies patched.
+7. Review CORS, CSRF, SSRF, injection and access-control risks.
+8. Run automated security checks before release.
 
-GitHub documents that push protection can block supported secrets before they reach a repository, while secret scanning can detect credentials in repository history. citeturn0search0turn0search1
+## Deployment
 
-## ⚖️ Legal / product-safety notes
+The app is configured for a static publish directory through the repository's Netlify configuration. Keep `_headers` deployed alongside `index.html` so the host can apply the security headers.
 
-- DVILR SPEED is an independent project.
-- Do not use third-party trademarks, logos, or branding in a way that implies sponsorship or affiliation.
-- Product names such as games and conferencing services are used only to describe compatibility/suitability categories where shown.
-- Do not claim that a test result guarantees performance in a specific game, streaming service, ISP, VPN, or application.
-- Do not claim that DVILR SPEED is officially affiliated with Ookla or Speedtest.
-- Do not promise that the website is invulnerable or completely free of security defects.
-- If the project is commercially deployed, have the final Terms, Privacy Policy, cookie/analytics disclosures, trademark use, and jurisdiction-specific requirements reviewed by a qualified lawyer.
+## Files
 
-## 🌐 Deployment
+```text
+speed-test/
+├── index.html       # DVILR SPEED X v4.1 application
+├── README.md        # Feature, security and accuracy documentation
+├── _headers        # Production security headers
+├── SECURITY.md     # Vulnerability reporting guidance
+├── PRIVACY.md      # Privacy/data handling notice
+└── TERMS.md        # Terms and product limitations
+```
 
-This is a static app. Netlify can publish the `speed-test` directory directly.
+## Version history
 
-Recommended production setup:
+### v4.1
+- Fixed the Settings button name collision.
+- Rebound all primary interactions with explicit event listeners.
+- Added safer modal behavior and keyboard Escape handling.
+- Hardened fetch behavior with timeouts, no-store requests, omitted credentials and redirect rejection.
+- Validated and safely rendered local history.
+- Improved mobile/responsive polish and focus-visible states.
+- Expanded the README to document security, privacy, accuracy and legal/product limitations.
 
-- HTTPS only
-- Security headers from `_headers`
-- No secrets in frontend files
-- GitHub secret scanning / push protection enabled
-- Minimal third-party dependencies
-- Regular security reviews
+### v4
+- Premium network intelligence dashboard.
+- Quick/Gaming/Streaming/Work/Advanced modes.
+- Health score, diagnostics, endpoint information, history and sharing.
 
-## 📁 Main files
+## Responsible disclosure
 
-- `index.html` — DVILR SPEED X application
-- `_headers` — static-host security headers
-- `SECURITY.md` — vulnerability reporting guidance
-- `PRIVACY.md` — privacy/product data notes
-- `TERMS.md` — product terms and limitations
-
-## 🧪 Accuracy philosophy
-
-The goal is **useful, repeatable, understandable measurements**, not fake precision.
-
-A browser speed test is affected by the browser, operating system, device CPU, Wi-Fi radio, router, network load, VPN/proxy, congestion, TCP/TLS/HTTP behavior, and endpoint distance. For serious network engineering, validate results with multiple tools and, when possible, measurements closer to the network edge.
-
-## 📄 License
-
-Add a project-specific license before distributing the software commercially or accepting outside contributions. If no license is present, normal copyright protections still apply.
+See `SECURITY.md` for the project's vulnerability-reporting guidance. Do not publish secrets or sensitive vulnerability details in a public issue.
