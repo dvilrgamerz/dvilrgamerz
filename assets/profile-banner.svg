@@ -1,0 +1,43 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1020"/>
+      <stop offset="0.5" stop-color="#111A33"/>
+      <stop offset="1" stop-color="#0C2340"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="120" y1="0" x2="980" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#58A6FF"/>
+      <stop offset="0.52" stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="320" rx="28" fill="url(#bg)"/>
+  <circle cx="1050" cy="65" r="110" fill="#2563EB" opacity="0.16" filter="url(#glow)"/>
+  <circle cx="1050" cy="65" r="72" stroke="#60A5FA" stroke-width="2" opacity="0.35"/>
+  <circle cx="1088" cy="245" r="130" fill="#7C3AED" opacity="0.13" filter="url(#glow)"/>
+  <path d="M0 268C168 208 250 287 410 240C567 194 661 245 804 210C940 177 1041 195 1200 131V320H0V268Z" fill="#111D3A" opacity="0.7"/>
+
+  <g opacity="0.18" stroke="#7DD3FC">
+    <path d="M890 80H1135"/>
+    <path d="M920 110H1160"/>
+    <path d="M870 140H1110"/>
+    <path d="M930 170H1175"/>
+    <path d="M900 200H1135"/>
+  </g>
+
+  <rect x="78" y="72" width="8" height="154" rx="4" fill="url(#accent)"/>
+  <text x="118" y="124" fill="#F8FAFC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="46" font-weight="700" letter-spacing="0.5">Jenil Patel</text>
+  <text x="120" y="166" fill="#9FC5FF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22" font-weight="600" letter-spacing="2">STUDENT DEVELOPER</text>
+  <text x="120" y="207" fill="#CBD5E1" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22">Web Apps • Browser Games • Networking • Computer Science</text>
+  <text x="120" y="247" fill="#7DD3FC" font-family="Consolas,Menlo,monospace" font-size="17">build → test → improve → ship</text>
+
+  <g transform="translate(930 92)" fill="none" stroke="url(#accent)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M28 0L0 28L28 56"/>
+    <path d="M78 0L106 28L78 56"/>
+    <path d="M63 -8L43 64"/>
+  </g>
+</svg>
