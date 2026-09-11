@@ -1,39 +1,38 @@
 <p align="center">
-  <img src="./assets/profile-banner.svg" alt="Jenil Patel — Student Developer" width="100%" />
+  <img src="./assets/profile-banner.svg" alt="Jenil Patel — Student Software Developer" width="100%" />
 </p>
 
 <p align="center">
-  <a href="https://github.com/dvilrgamerz?tab=repositories"><img src="https://img.shields.io/badge/Projects-View%20Repositories-2563EB?style=for-the-badge&logo=github&logoColor=white" alt="View repositories" /></a>
+  <a href="https://github.com/dvilrgamerz?tab=repositories"><img src="https://img.shields.io/badge/Portfolio-View%20Projects-2563EB?style=for-the-badge&logo=github&logoColor=white" alt="View projects" /></a>
   <a href="https://github.com/dvilrgamerz"><img src="https://img.shields.io/badge/GitHub-dvilrgamerz-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub profile" /></a>
 </p>
 
-## About Me
+## 👋 About Me
 
-I'm **Jenil Patel**, a student developer who enjoys turning ideas into working software. I build browser apps, interactive tools, and games while learning more about **computer science, software engineering, networking, and game development**.
+I'm **Jenil Patel**, a student software developer focused on building complete, usable projects—not just code samples.
 
-I care about projects that are more than demos: responsive interfaces, useful features, clear documentation, testing, accessibility, privacy-conscious design, and deployment.
+I enjoy taking an idea from **prototype → testing → polish → deployment**, especially for web apps, browser games, networking tools, and student-focused software. I care about responsive design, clear documentation, accessibility, privacy-conscious development, and learning how real software is built and maintained.
 
-- 🔭 Building practical web apps and browser games
-- 🧠 Growing my skills in computer science, networking, and software development
-- 🛠️ Comfortable learning by building, testing, debugging, and shipping
-- 🎯 Interested in internships, entry-level opportunities, and collaborative projects
+**Currently open to:** internships, entry-level opportunities, collaborative projects, and opportunities to keep growing as a developer.
 
-## Tech I Work With
+## 🧰 Technical Skills
 
-<p>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=000" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
-  <img src="https://img.shields.io/badge/Netlify-00C7B7?style=flat-square&logo=netlify&logoColor=white" alt="Netlify" />
-  <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase" />
-  <img src="https://img.shields.io/badge/PWA-5A0FC8?style=flat-square&logo=pwa&logoColor=white" alt="Progressive Web Apps" />
-</p>
+**Languages & Core Web**  
+JavaScript · HTML5 · CSS3
 
-**Also working with:** Canvas 2D, responsive/mobile-first UI, localStorage, browser APIs, game logic, GitHub Actions/CI, and deployment workflows.
+**Web & App Development**  
+Responsive UI · Progressive Web Apps · Browser APIs · localStorage · Canvas 2D
 
-## Featured Projects
+**Backend / Data**  
+Supabase · Authentication concepts · Cloud-backed app features
+
+**Developer Tools**  
+Git · GitHub · GitHub Actions / CI · Netlify · Debugging · Testing · Deployment workflows
+
+**Learning & Exploring**  
+Computer Science · Networking · Game Development · AI-assisted development workflows
+
+## 🚀 Featured Projects
 
 <table>
 <tr>
@@ -41,14 +40,14 @@ I care about projects that are more than demos: responsive interfaces, useful fe
 
 ### 📡 [WiFi Pulse V2](https://github.com/dvilrgamerz/wifi)
 
-A mobile-first internet performance app with **two testing experiences**: a classic speed test and an original survival game that measures network quality during gameplay.
+A mobile-first internet performance app with two testing experiences: a traditional speed test and an original survival-game mode that measures network quality during gameplay.
 
 **Highlights**
 - Ping, jitter, download, upload, and connection scoring
-- Gaming / streaming / video-call readiness
-- Installable PWA with local history
+- Gaming, streaming, and video-call readiness
+- Installable PWA with local test history
 - Live network-health measurements during gameplay
-- Responsive UI and browser-based deployment
+- Responsive browser-based deployment
 
 **Tech:** JavaScript · HTML · CSS · PWA · Browser APIs
 
@@ -57,14 +56,14 @@ A mobile-first internet performance app with **two testing experiences**: a clas
 
 ### 🌌 [Nebula Survivors](https://github.com/dvilrgamerz/game-v2)
 
-An original browser arena-survival game focused on polished gameplay systems, input support, accessibility settings, and reliable client-side behavior.
+An original browser arena-survival game focused on gameplay systems, input support, accessibility, and reliable client-side behavior.
 
 **Highlights**
 - Endless waves, bosses, upgrades, and weapon evolutions
 - Keyboard, mobile joystick, and gamepad support
 - Graphics and accessibility settings
 - Local high-score leaderboard
-- Syntax checks, ESLint, gameplay validation, and UI smoke tests
+- ESLint, syntax checks, gameplay validation, and UI smoke tests
 
 **Tech:** JavaScript · Canvas 2D · HTML · CSS · CI
 
@@ -89,47 +88,50 @@ A local-first budgeting project designed to work in the browser without requirin
 </td>
 <td width="50%" valign="top">
 
-### 🚀 More Projects
+### 🎮 [Neon Rift Survivor](https://github.com/dvilrgamerz/Neon-Rift-Survivor)
 
-I regularly build and improve projects as I learn new technologies and workflows.
+A browser-game project where I'm applying what I've learned about game loops, UI structure, repository organization, documentation, and deployment.
 
-**Explore my repositories:**  
-👉 [github.com/dvilrgamerz?tab=repositories](https://github.com/dvilrgamerz?tab=repositories)
+**Focus**
+- Clean project structure
+- Responsive game UI
+- Original gameplay systems
+- Deployment-ready setup
+- Clear README documentation
 
-I'm especially interested in projects involving **web development, games, networking, AI-assisted tools, and useful student-focused software**.
+**Tech:** Web · JavaScript · HTML · CSS
 
 </td>
 </tr>
 </table>
 
-## How I Build
+## 🧠 How I Work
 
 ```text
-Idea → Prototype → Test → Debug → Polish → Deploy → Improve
+Idea → Plan → Build → Test → Debug → Polish → Deploy → Improve
 ```
 
-I try to make each project stronger by focusing on:
+I try to make every project stronger in five areas:
 
-- **Usability:** responsive layouts and clear user flows
-- **Reliability:** validation, defensive code, and testing where practical
-- **Performance:** lightweight browser experiences and sensible resource use
-- **Privacy & security:** local-first storage when possible and careful handling of credentials
-- **Documentation:** clear READMEs so projects are easy to understand and run
+- **Usability** — responsive layouts and clear user flows
+- **Reliability** — validation, defensive code, and testing where practical
+- **Performance** — lightweight experiences and sensible resource use
+- **Security & privacy** — careful handling of credentials and user data
+- **Documentation** — READMEs that explain what a project does and how to run it
 
-## GitHub Snapshot
+## 🎯 Current Focus
 
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=dvilrgamerz&show_icons=true&hide_border=true&rank_icon=github&theme=github_dark" alt="Jenil's GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dvilrgamerz&layout=compact&hide_border=true&theme=github_dark" alt="Top languages" />
-</p>
+I'm continuing to strengthen my software-development fundamentals, learn computer networking, build better portfolio projects, and practice professional Git/GitHub workflows such as issues, branches, pull requests, reviews, and CI.
 
-## Current Focus
+## 📌 Recruiter / Employer Shortcut
 
-Right now I'm continuing to improve my software-development fundamentals, build stronger portfolio projects, learn more about computer networking, and create projects that demonstrate what I can do—not just what I know.
+If you're reviewing my GitHub for an opportunity, these are the best places to start:
 
----
+1. **[WiFi Pulse V2](https://github.com/dvilrgamerz/wifi)** — practical web app + networking focus
+2. **[Nebula Survivors](https://github.com/dvilrgamerz/game-v2)** — game systems + testing + accessibility
+3. **[VaultBudget](https://github.com/dvilrgamerz/VaultBudget1)** — app structure + privacy-conscious design
 
 <p align="center">
   <b>Thanks for visiting my profile.</b><br/>
-  If you're reviewing my work for an opportunity, start with <a href="https://github.com/dvilrgamerz/wifi">WiFi Pulse V2</a> and <a href="https://github.com/dvilrgamerz/game-v2">Nebula Survivors</a>.
+  I build, test, learn, and keep improving.
 </p>
