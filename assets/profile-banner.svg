@@ -31,7 +31,7 @@
 
   <rect x="78" y="72" width="8" height="154" rx="4" fill="url(#accent)"/>
   <text x="118" y="124" fill="#F8FAFC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="46" font-weight="700" letter-spacing="0.5">Jenil Patel</text>
-  <text x="120" y="166" fill="#9FC5FF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22" font-weight="600" letter-spacing="2">STUDENT DEVELOPER</text>
+  <text x="120" y="166" fill="#9FC5FF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22" font-weight="600" letter-spacing="1.4">STUDENT SOFTWARE DEVELOPER</text>
   <text x="120" y="207" fill="#CBD5E1" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22">Web Apps • Browser Games • Networking • Computer Science</text>
   <text x="120" y="247" fill="#7DD3FC" font-family="Consolas,Menlo,monospace" font-size="17">build → test → improve → ship</text>
 
