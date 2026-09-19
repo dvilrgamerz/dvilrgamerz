@@ -2,104 +2,112 @@
   <img src="./assets/profile-banner.svg" alt="Jenil Patel — Student Software Developer" width="100%" />
 </p>
 
+<h1 align="center">Hey, I'm Jenil 👋</h1>
+
 <p align="center">
-  <a href="https://github.com/dvilrgamerz?tab=repositories"><img src="https://img.shields.io/badge/Portfolio-View%20Projects-2563EB?style=for-the-badge&logo=github&logoColor=white" alt="View projects" /></a>
-  <a href="https://github.com/dvilrgamerz"><img src="https://img.shields.io/badge/GitHub-dvilrgamerz-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub profile" /></a>
+  <strong>Student software developer building polished web apps, browser games, networking tools, and practical experiments.</strong>
 </p>
 
-## 👋 About Me
+<p align="center">
+  <a href="https://github.com/dvilrgamerz?tab=repositories"><img src="https://img.shields.io/badge/Explore-My_Projects-2563EB?style=for-the-badge&logo=github&logoColor=white" alt="Explore projects" /></a>
+  <a href="https://github.com/dvilrgamerz/VaultBudget1"><img src="https://img.shields.io/badge/Featured-VaultBudget-F4B83F?style=for-the-badge&logo=github&logoColor=111827" alt="VaultBudget" /></a>
+</p>
 
-I'm **Jenil Patel**, a student software developer focused on building complete, usable projects—not just code samples.
+## 🚀 What I'm Building
 
-I enjoy taking an idea from **prototype → testing → polish → deployment**, especially for web apps, browser games, networking tools, and student-focused software. I care about responsive design, clear documentation, accessibility, privacy-conscious development, and learning how real software is built and maintained.
+I like turning ideas into complete projects: **plan → build → test → debug → polish → deploy → improve**.
 
-**Currently open to:** internships, entry-level opportunities, collaborative projects, and opportunities to keep growing as a developer.
+My current flagship project is **[VaultBudget](https://github.com/dvilrgamerz/VaultBudget1)** — a local-first budgeting dashboard with transactions, goals, reports, exports, and optional Supabase account backup.
 
-## 🧰 Technical Skills
+I focus on projects that are:
+- **Usable** — responsive interfaces and clear flows
+- **Practical** — features people can actually try
+- **Privacy-conscious** — careful handling of user data and credentials
+- **Documented** — clear READMEs and setup instructions
+- **Improving over time** — testing, debugging, iteration, and deployment
 
-**Languages & Core Web**  
-JavaScript · HTML5 · CSS3
+## 🧰 Tech Stack
 
-**Web & App Development**  
-Responsive UI · Progressive Web Apps · Browser APIs · localStorage · Canvas 2D
+<p>
+  <img src="https://img.shields.io/badge/JavaScript-111827?style=flat-square&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/HTML5-111827?style=flat-square&logo=html5&logoColor=E34F26" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-111827?style=flat-square&logo=css3&logoColor=1572B6" alt="CSS3" />
+  <img src="https://img.shields.io/badge/Supabase-111827?style=flat-square&logo=supabase&logoColor=3FCF8E" alt="Supabase" />
+  <img src="https://img.shields.io/badge/Git-111827?style=flat-square&logo=git&logoColor=F05032" alt="Git" />
+  <img src="https://img.shields.io/badge/GitHub-111827?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
+  <img src="https://img.shields.io/badge/Netlify-111827?style=flat-square&logo=netlify&logoColor=00C7B7" alt="Netlify" />
+</p>
 
-**Backend / Data**  
-Supabase · Authentication concepts · Cloud-backed app features
+**Core:** JavaScript · HTML · CSS · Responsive UI · Browser APIs · Canvas 2D · localStorage  
+**Backend / Data:** Supabase · Authentication concepts · SQL · Row Level Security  
+**Workflow:** Git · GitHub · CI · Debugging · Testing · Deployment  
+**Learning:** Computer Science · Networking · Game Development · AI-assisted development
 
-**Developer Tools**  
-Git · GitHub · GitHub Actions / CI · Netlify · Debugging · Testing · Deployment workflows
-
-**Learning & Exploring**  
-Computer Science · Networking · Game Development · AI-assisted development workflows
-
-## 🚀 Featured Projects
+## ⭐ Featured Projects
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 📡 [WiFi Pulse V2](https://github.com/dvilrgamerz/wifi)
+### 💰 [VaultBudget](https://github.com/dvilrgamerz/VaultBudget1)
 
-A mobile-first internet performance app with two testing experiences: a traditional speed test and an original survival-game mode that measures network quality during gameplay.
+A local-first personal budgeting dashboard with optional cloud backup.
 
 **Highlights**
-- Ping, jitter, download, upload, and connection scoring
-- Gaming, streaming, and video-call readiness
-- Installable PWA with local test history
-- Live network-health measurements during gameplay
-- Responsive browser-based deployment
+- Transactions, goals, reports, and spending limits
+- CSV, JSON, and text exports
+- Local browser storage by default
+- Optional Supabase login + manual backup
+- Row Level Security for user-owned cloud data
 
-**Tech:** JavaScript · HTML · CSS · PWA · Browser APIs
+**Tech:** JavaScript · HTML · CSS · Supabase · SQL
 
 </td>
 <td width="50%" valign="top">
 
-### 🌌 [Nebula Survivors](https://github.com/dvilrgamerz/game-v2)
+### 🌍 [GeoPulse](https://github.com/dvilrgamerz/GeoPulse)
 
-An original browser arena-survival game focused on gameplay systems, input support, accessibility, and reliable client-side behavior.
+A live-world dashboard project exploring maps, global events, satellites, aircraft, ships, and real-time data interfaces.
 
-**Highlights**
-- Endless waves, bosses, upgrades, and weapon evolutions
-- Keyboard, mobile joystick, and gamepad support
-- Graphics and accessibility settings
-- Local high-score leaderboard
-- ESLint, syntax checks, gameplay validation, and UI smoke tests
+**Focus**
+- Live-data visualization
+- Interactive world UI
+- External data integrations
+- Responsive dashboard design
 
-**Tech:** JavaScript · Canvas 2D · HTML · CSS · CI
+**Tech:** Web · JavaScript · APIs · Mapping
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### 💰 [VaultBudget](https://github.com/dvilrgamerz/VaultBudget1)
+### 📡 [WiFi Pulse V2](https://github.com/dvilrgamerz/wifi)
 
-A local-first budgeting project designed to work in the browser without requiring a backend, with optional account backup through Supabase.
+A network-quality testing app with traditional connection measurements and an original game-based test mode.
 
 **Highlights**
-- Local-first browser storage
-- Optional Supabase account backup
-- Privacy and terms pages
-- GitHub Pages-ready deployment
-- Keeps sensitive server credentials out of client code
+- Ping, jitter, download, upload, and stability
+- Gaming / streaming readiness
+- PWA-style browser experience
+- Local result history
 
-**Tech:** JavaScript · HTML · CSS · Supabase
+**Tech:** JavaScript · Browser APIs · PWA
 
 </td>
 <td width="50%" valign="top">
 
-### 🎮 [Neon Rift Survivor](https://github.com/dvilrgamerz/Neon-Rift-Survivor)
+### 🌌 [Neon Rift Survivor](https://github.com/dvilrgamerz/Neon-Rift-Survivor)
 
-A browser-game project where I'm applying what I've learned about game loops, UI structure, repository organization, documentation, and deployment.
+An original browser survival game used to practice gameplay systems, UI, balancing, responsive input, and deployment.
 
 **Focus**
-- Clean project structure
-- Responsive game UI
-- Original gameplay systems
-- Deployment-ready setup
-- Clear README documentation
+- Endless survival gameplay
+- Upgrade systems
+- Responsive controls
+- Iterative releases
 
-**Tech:** Web · JavaScript · HTML · CSS
+**Tech:** JavaScript · HTML · CSS
 
 </td>
 </tr>
@@ -108,30 +116,43 @@ A browser-game project where I'm applying what I've learned about game loops, UI
 ## 🧠 How I Work
 
 ```text
-Idea → Plan → Build → Test → Debug → Polish → Deploy → Improve
+Idea
+ ↓
+Plan
+ ↓
+Build
+ ↓
+Test
+ ↓
+Debug
+ ↓
+Polish
+ ↓
+Deploy
+ ↓
+Improve
 ```
 
-I try to make every project stronger in five areas:
-
-- **Usability** — responsive layouts and clear user flows
-- **Reliability** — validation, defensive code, and testing where practical
-- **Performance** — lightweight experiences and sensible resource use
-- **Security & privacy** — careful handling of credentials and user data
-- **Documentation** — READMEs that explain what a project does and how to run it
+I’m especially interested in learning how real software gets built and maintained—not just how to make a demo work once.
 
 ## 🎯 Current Focus
 
-I'm continuing to strengthen my software-development fundamentals, learn computer networking, build better portfolio projects, and practice professional Git/GitHub workflows such as issues, branches, pull requests, reviews, and CI.
+- Making **VaultBudget** portfolio-ready
+- Improving frontend architecture and UI polish
+- Learning computer networking
+- Building stronger Git/GitHub workflows
+- Adding better validation and testing
+- Shipping projects that are easy for other people to understand and try
 
-## 📌 Recruiter / Employer Shortcut
+## 👀 Start Here
 
-If you're reviewing my GitHub for an opportunity, these are the best places to start:
+If you're reviewing my GitHub for a project, collaboration, internship, or entry-level opportunity, these are good places to begin:
 
-1. **[WiFi Pulse V2](https://github.com/dvilrgamerz/wifi)** — practical web app + networking focus
-2. **[Nebula Survivors](https://github.com/dvilrgamerz/game-v2)** — game systems + testing + accessibility
-3. **[VaultBudget](https://github.com/dvilrgamerz/VaultBudget1)** — app structure + privacy-conscious design
+1. **[VaultBudget](https://github.com/dvilrgamerz/VaultBudget1)** — practical app design, local-first data, Supabase, and security
+2. **[WiFi Pulse V2](https://github.com/dvilrgamerz/wifi)** — networking + interactive web development
+3. **[GeoPulse](https://github.com/dvilrgamerz/GeoPulse)** — live-data dashboard experimentation
+4. **[Neon Rift Survivor](https://github.com/dvilrgamerz/Neon-Rift-Survivor)** — gameplay systems + iteration
 
 <p align="center">
-  <b>Thanks for visiting my profile.</b><br/>
-  I build, test, learn, and keep improving.
+  <strong>Build. Test. Learn. Improve.</strong>
 </p>
