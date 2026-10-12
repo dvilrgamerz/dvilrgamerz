@@ -40,80 +40,44 @@ I'm interested in **artificial intelligence, software engineering, interactive m
 <table>
 <tr>
 <td width="50%" valign="top">
-
-### 🌎 [GeoPulse](https://github.com/dvilrgamerz/GeoPulse)
-**A 3D Earth intelligence dashboard.**
-
-Explore aircraft, satellites, earthquakes, disasters, and more on an interactive globe. Data freshness is labeled rather than everything being presented as live.
-
-`CesiumJS` · `JavaScript` · `Public data APIs`
-
-**[Explore source →](https://github.com/dvilrgamerz/GeoPulse)**
-
+<h3>🌎 <a href="https://github.com/dvilrgamerz/GeoPulse">GeoPulse</a></h3>
+<p>A 3D Earth intelligence dashboard. Explore aircraft, satellites, earthquakes, disasters, and more; data freshness is explicitly labeled.</p>
+<p><sub><strong>STACK:</strong> CesiumJS · JavaScript · Public data APIs</sub></p>
+<p><a href="https://github.com/dvilrgamerz/GeoPulse"><strong>Source ↗</strong></a></p>
 </td>
 <td width="50%" valign="top">
-
-### 💰 [VaultBudget](https://github.com/dvilrgamerz/VaultBudget1)
-**Local-first budgeting, with optional cloud backup.**
-
-Transactions, savings goals, reports, exports, and optional Supabase authentication and manual backup.
-
-`JavaScript` · `Supabase` · `SQL`
-
-**[Live demo ↗](https://vault-budget-ai.netlify.app)** · **[Source →](https://github.com/dvilrgamerz/VaultBudget1)**
-
+<h3>💰 <a href="https://github.com/dvilrgamerz/VaultBudget1">VaultBudget</a></h3>
+<p>Local-first budgeting with transactions, savings goals, reports, exports, and optional Supabase manual cloud backup.</p>
+<p><sub><strong>STACK:</strong> JavaScript · Supabase · SQL</sub></p>
+<p><a href="https://vault-budget-ai.netlify.app"><strong>Live demo ↗</strong></a> · <a href="https://github.com/dvilrgamerz/VaultBudget1"><strong>Source ↗</strong></a></p>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-
-### 📡 [WiFi Pulse V2](https://github.com/dvilrgamerz/wifi)
-**Internet diagnostics meets a playable stress test.**
-
-Speed, latency, jitter, and connection stability tools alongside Signal Survivor, a game-based network test mode.
-
-`JavaScript` · `Python / Flask` · `PWA`
-
-**[Live demo ↗](https://wifi-pulse-v2.netlify.app)** · **[Source →](https://github.com/dvilrgamerz/wifi)**
-
+<h3>📡 <a href="https://github.com/dvilrgamerz/wifi">WiFi Pulse V2</a></h3>
+<p>Internet diagnostics meets a playable stress test. Speed, latency, jitter, and Signal Survivor's game-based network testing.</p>
+<p><sub><strong>STACK:</strong> JavaScript · Python / Flask · PWA</sub></p>
+<p><a href="https://wifi-pulse-v2.netlify.app"><strong>Live demo ↗</strong></a> · <a href="https://github.com/dvilrgamerz/wifi"><strong>Source ↗</strong></a></p>
 </td>
 <td width="50%" valign="top">
-
-### 🌌 [Neon Rift Survivor](https://github.com/dvilrgamerz/Neon-Rift-Survivor)
-**A browser-based bullet-heaven survival game.**
-
-Operators, arenas, bosses, upgrades, progression, and controller/mobile support — built around a JavaScript game engine.
-
-`Canvas 2D` · `JavaScript` · `WebAudio`
-
-**[Play now ↗](https://neon-rift-survivor.netlify.app)** · **[Source →](https://github.com/dvilrgamerz/Neon-Rift-Survivor)**
-
+<h3>🌌 <a href="https://github.com/dvilrgamerz/Neon-Rift-Survivor">Neon Rift Survivor</a></h3>
+<p>A browser-based survival game with operators, arenas, bosses, upgrades, progression, and controller/mobile support.</p>
+<p><sub><strong>STACK:</strong> Canvas 2D · JavaScript · WebAudio</sub></p>
+<p><a href="https://neon-rift-survivor.netlify.app"><strong>Play now ↗</strong></a> · <a href="https://github.com/dvilrgamerz/Neon-Rift-Survivor"><strong>Source ↗</strong></a></p>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-
-### 🤖 [J.A.R.V.I.S.](https://github.com/dvilrgamerz/J.A.R.V.I.S.)
-**An experimental AI assistant interface.**
-
-Exploring model routing, chat experiences, boot visuals, interaction modes, and testing tools. Current inference is cloud-backed, not a locally trained model.
-
-`Web app` · `AI integration` · `UX`
-
-**[Explore source →](https://github.com/dvilrgamerz/J.A.R.V.I.S.)**
-
+<h3>🤖 <a href="https://github.com/dvilrgamerz/J.A.R.V.I.S.">J.A.R.V.I.S.</a></h3>
+<p>An experimental AI assistant interface exploring model routing, chat UX, interaction modes, and testing tools. Current inference is cloud-backed.</p>
+<p><sub><strong>STACK:</strong> Web app · AI integration · UX</sub></p>
+<p><a href="https://github.com/dvilrgamerz/J.A.R.V.I.S."><strong>Source ↗</strong></a></p>
 </td>
 <td width="50%" valign="top">
-
-### 🏎️ [DVILR GP](https://github.com/dvilrgamerz/F1-game)
-**An original browser-based formula-style racer.**
-
-Cars, racing systems, pit strategy, DRS/ERS, and ongoing physics development. V3 is an active alpha, not a finished simulator.
-
-`Three.js` · `TypeScript` · `Vite`
-
-**[Explore source →](https://github.com/dvilrgamerz/F1-game)**
-
+<h3>🏎️ <a href="https://github.com/dvilrgamerz/F1-game">DVILR GP</a></h3>
+<p>An original formula-style browser racer with pit strategy, DRS/ERS, and ongoing physics development. V3 is an active alpha.</p>
+<p><sub><strong>STACK:</strong> Three.js · TypeScript · Vite</sub></p>
+<p><a href="https://github.com/dvilrgamerz/F1-game"><strong>Source ↗</strong></a></p>
 </td>
 </tr>
 </table>
