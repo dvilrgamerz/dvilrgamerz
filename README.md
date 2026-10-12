@@ -1,81 +1,66 @@
 <p align="center">
-  <img src="./assets/profile-banner.svg" alt="Jenil Patel — Student Software Developer" width="100%" />
+  <img src="./assets/profile-banner.svg" width="100%" alt="Jenil Patel | DVILR — AI Research, Game Development, Web Apps" />
 </p>
 
 <h1 align="center">Hey, I'm Jenil 👋</h1>
+<p align="center">
+  <strong>Student developer • AI enthusiast • Game builder</strong><br/>
+  I build software to understand how it works — from the math behind AI to the details that make an app or game feel great.
+</p>
 
 <p align="center">
-  <strong>Student software developer building polished web apps, browser games, networking tools, and practical experiments.</strong>
+  <a href="#-selected-projects"><img alt="Explore projects" src="https://img.shields.io/badge/EXPLORE-PROJECTS-38BDF8?style=for-the-badge&logo=github&logoColor=0B1020" /></a>
+  <a href="https://neon-rift-survivor.netlify.app"><img alt="Play my game" src="https://img.shields.io/badge/PLAY-MY_GAME-8B5CF6?style=for-the-badge&logo=itchdotio&logoColor=white" /></a>
+  <a href="https://github.com/bilawalsidhu/gods-eye-view/pull/1066"><img alt="Open source contribution" src="https://img.shields.io/badge/OPEN_SOURCE-CONTRIBUTION-14B8A6?style=for-the-badge&logo=git&logoColor=white" /></a>
 </p>
 
-<p align="center">
-  <a href="https://github.com/dvilrgamerz?tab=repositories"><img src="https://img.shields.io/badge/Explore-My_Projects-2563EB?style=for-the-badge&logo=github&logoColor=white" alt="Explore projects" /></a>
-  <a href="https://github.com/dvilrgamerz/VaultBudget1"><img src="https://img.shields.io/badge/Featured-VaultBudget-F4B83F?style=for-the-badge&logo=github&logoColor=111827" alt="VaultBudget" /></a>
-</p>
+---
 
-## 🚀 What I'm Building
+## 👨‍💻 About Me
 
-I like turning ideas into complete projects: **plan → build → test → debug → polish → deploy → improve**.
+I'm interested in **artificial intelligence, software engineering, interactive maps, and game development**. I enjoy going beyond a prototype: fixing edge cases, improving performance, writing tests, and making the experience easier to use.
 
-My current flagship project is **[VaultBudget](https://github.com/dvilrgamerz/VaultBudget1)** — a local-first budgeting dashboard with transactions, goals, reports, exports, and optional Supabase account backup.
+- 🧠 **Long-term goal:** train and understand my own AI model from scratch.
+- 🎮 **Game development:** working on stylized games, including a Unity co-op delivery game.
+- 🌍 **Real-world software:** building dashboards, network tools, and apps that solve practical problems.
+- 🧪 **My approach:** experiment → measure → debug → improve → ship.
 
-I focus on projects that are:
-- **Usable** — responsive interfaces and clear flows
-- **Practical** — features people can actually try
-- **Privacy-conscious** — careful handling of user data and credentials
-- **Documented** — clear READMEs and setup instructions
-- **Improving over time** — testing, debugging, iteration, and deployment
+## 🔭 Currently Exploring
 
-## 🧰 Tech Stack
+| Area | What I'm working on |
+| --- | --- |
+| **AI / model research** | Learning language-model training and experimenting with new learning and memory approaches. |
+| **Unity + 3D** | Building **Haul or Fail**, a stylized co-op delivery game; working on gameplay systems, characters, vehicles, and city polish. |
+| **Live-world data** | Improving **[GeoPulse](https://github.com/dvilrgamerz/GeoPulse)**, a 3D globe with source-aware global data layers. |
 
-<p>
-  <img src="https://img.shields.io/badge/JavaScript-111827?style=flat-square&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/HTML5-111827?style=flat-square&logo=html5&logoColor=E34F26" alt="HTML5" />
-  <img src="https://img.shields.io/badge/CSS3-111827?style=flat-square&logo=css3&logoColor=1572B6" alt="CSS3" />
-  <img src="https://img.shields.io/badge/Supabase-111827?style=flat-square&logo=supabase&logoColor=3FCF8E" alt="Supabase" />
-  <img src="https://img.shields.io/badge/Git-111827?style=flat-square&logo=git&logoColor=F05032" alt="Git" />
-  <img src="https://img.shields.io/badge/GitHub-111827?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
-  <img src="https://img.shields.io/badge/Netlify-111827?style=flat-square&logo=netlify&logoColor=00C7B7" alt="Netlify" />
-</p>
+> Some AI and Unity work is still in development and is not yet published as a public repository.
 
-**Core:** JavaScript · HTML · CSS · Responsive UI · Browser APIs · Canvas 2D · localStorage  
-**Backend / Data:** Supabase · Authentication concepts · SQL · Row Level Security  
-**Workflow:** Git · GitHub · CI · Debugging · Testing · Deployment  
-**Learning:** Computer Science · Networking · Game Development · AI-assisted development
-
-## ⭐ Featured Projects
+## 🚀 Selected Projects
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 💰 [VaultBudget](https://github.com/dvilrgamerz/VaultBudget1)
+### 🌎 [GeoPulse](https://github.com/dvilrgamerz/GeoPulse)
+**A 3D Earth intelligence dashboard.**
 
-A local-first personal budgeting dashboard with optional cloud backup.
+Explore aircraft, satellites, earthquakes, disasters, and more on an interactive globe. Data freshness is labeled rather than everything being presented as live.
 
-**Highlights**
-- Transactions, goals, reports, and spending limits
-- CSV, JSON, and text exports
-- Local browser storage by default
-- Optional Supabase login + manual backup
-- Row Level Security for user-owned cloud data
+`CesiumJS` · `JavaScript` · `Public data APIs`
 
-**Tech:** JavaScript · HTML · CSS · Supabase · SQL
+**[Explore source →](https://github.com/dvilrgamerz/GeoPulse)**
 
 </td>
 <td width="50%" valign="top">
 
-### 🌍 [GeoPulse](https://github.com/dvilrgamerz/GeoPulse)
+### 💰 [VaultBudget](https://github.com/dvilrgamerz/VaultBudget1)
+**Local-first budgeting, with optional cloud backup.**
 
-A live-world dashboard project exploring maps, global events, satellites, aircraft, ships, and real-time data interfaces.
+Transactions, savings goals, reports, exports, and optional Supabase authentication and manual backup.
 
-**Focus**
-- Live-data visualization
-- Interactive world UI
-- External data integrations
-- Responsive dashboard design
+`JavaScript` · `Supabase` · `SQL`
 
-**Tech:** Web · JavaScript · APIs · Mapping
+**[Live demo ↗](https://vault-budget-ai.netlify.app)** · **[Source →](https://github.com/dvilrgamerz/VaultBudget1)**
 
 </td>
 </tr>
@@ -83,76 +68,96 @@ A live-world dashboard project exploring maps, global events, satellites, aircra
 <td width="50%" valign="top">
 
 ### 📡 [WiFi Pulse V2](https://github.com/dvilrgamerz/wifi)
+**Internet diagnostics meets a playable stress test.**
 
-A network-quality testing app with traditional connection measurements and an original game-based test mode.
+Speed, latency, jitter, and connection stability tools alongside Signal Survivor, a game-based network test mode.
 
-**Highlights**
-- Ping, jitter, download, upload, and stability
-- Gaming / streaming readiness
-- PWA-style browser experience
-- Local result history
+`JavaScript` · `Python / Flask` · `PWA`
 
-**Tech:** JavaScript · Browser APIs · PWA
+**[Live demo ↗](https://wifi-pulse-v2.netlify.app)** · **[Source →](https://github.com/dvilrgamerz/wifi)**
 
 </td>
 <td width="50%" valign="top">
 
 ### 🌌 [Neon Rift Survivor](https://github.com/dvilrgamerz/Neon-Rift-Survivor)
+**A browser-based bullet-heaven survival game.**
 
-An original browser survival game used to practice gameplay systems, UI, balancing, responsive input, and deployment.
+Operators, arenas, bosses, upgrades, progression, and controller/mobile support — built around a JavaScript game engine.
 
-**Focus**
-- Endless survival gameplay
-- Upgrade systems
-- Responsive controls
-- Iterative releases
+`Canvas 2D` · `JavaScript` · `WebAudio`
 
-**Tech:** JavaScript · HTML · CSS
+**[Play now ↗](https://neon-rift-survivor.netlify.app)** · **[Source →](https://github.com/dvilrgamerz/Neon-Rift-Survivor)**
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🤖 [J.A.R.V.I.S.](https://github.com/dvilrgamerz/J.A.R.V.I.S.)
+**An experimental AI assistant interface.**
+
+Exploring model routing, chat experiences, boot visuals, interaction modes, and testing tools. Current inference is cloud-backed, not a locally trained model.
+
+`Web app` · `AI integration` · `UX`
+
+**[Explore source →](https://github.com/dvilrgamerz/J.A.R.V.I.S.)**
+
+</td>
+<td width="50%" valign="top">
+
+### 🏎️ [DVILR GP](https://github.com/dvilrgamerz/F1-game)
+**An original browser-based formula-style racer.**
+
+Cars, racing systems, pit strategy, DRS/ERS, and ongoing physics development. V3 is an active alpha, not a finished simulator.
+
+`Three.js` · `TypeScript` · `Vite`
+
+**[Explore source →](https://github.com/dvilrgamerz/F1-game)**
 
 </td>
 </tr>
 </table>
 
-## 🧠 How I Work
+**Also building:** [PC & Laptop Doctor AI](https://github.com/dvilrgamerz/PC-Laptop-Doctor-AI) — a local-first Windows diagnostics app.
 
-```text
-Idea
- ↓
-Plan
- ↓
-Build
- ↓
-Test
- ↓
-Debug
- ↓
-Polish
- ↓
-Deploy
- ↓
-Improve
-```
+## 🛠️ Languages & Tools
 
-I’m especially interested in learning how real software gets built and maintained—not just how to make a demo work once.
+**Languages and web**
 
-## 🎯 Current Focus
+<p>
+  <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-111827?style=flat-square&logo=javascript&logoColor=F7DF1E" />
+  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-111827?style=flat-square&logo=typescript&logoColor=3178C6" />
+  <img alt="Python" src="https://img.shields.io/badge/Python-111827?style=flat-square&logo=python&logoColor=3776AB" />
+  <img alt="HTML5" src="https://img.shields.io/badge/HTML5-111827?style=flat-square&logo=html5&logoColor=E34F26" />
+  <img alt="CSS3" src="https://img.shields.io/badge/CSS3-111827?style=flat-square&logo=css3&logoColor=1572B6" />
+  <img alt="SQL" src="https://img.shields.io/badge/SQL-111827?style=flat-square&logo=postgresql&logoColor=38BDF8" />
+</p>
 
-- Making **VaultBudget** portfolio-ready
-- Improving frontend architecture and UI polish
-- Learning computer networking
-- Building stronger Git/GitHub workflows
-- Adding better validation and testing
-- Shipping projects that are easy for other people to understand and try
+**Frameworks, platforms, and workflows**
 
-## 👀 Start Here
+<p>
+  <img alt="React" src="https://img.shields.io/badge/React-111827?style=flat-square&logo=react&logoColor=61DAFB" />
+  <img alt="Node.js" src="https://img.shields.io/badge/Node.js-111827?style=flat-square&logo=nodedotjs&logoColor=5FA04E" />
+  <img alt="Three.js" src="https://img.shields.io/badge/Three.js-111827?style=flat-square&logo=threedotjs&logoColor=white" />
+  <img alt="Supabase" src="https://img.shields.io/badge/Supabase-111827?style=flat-square&logo=supabase&logoColor=3FCF8E" />
+  <img alt="Electron" src="https://img.shields.io/badge/Electron-111827?style=flat-square&logo=electron&logoColor=9FEAF9" />
+  <img alt="Unity" src="https://img.shields.io/badge/Unity-111827?style=flat-square&logo=unity&logoColor=white" />
+  <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub_Actions-111827?style=flat-square&logo=githubactions&logoColor=2088FF" />
+  <img alt="Git" src="https://img.shields.io/badge/Git-111827?style=flat-square&logo=git&logoColor=F05032" />
+</p>
 
-If you're reviewing my GitHub for a project, collaboration, internship, or entry-level opportunity, these are good places to begin:
+## 🤝 Open Source
 
-1. **[VaultBudget](https://github.com/dvilrgamerz/VaultBudget1)** — practical app design, local-first data, Supabase, and security
-2. **[WiFi Pulse V2](https://github.com/dvilrgamerz/wifi)** — networking + interactive web development
-3. **[GeoPulse](https://github.com/dvilrgamerz/GeoPulse)** — live-data dashboard experimentation
-4. **[Neon Rift Survivor](https://github.com/dvilrgamerz/Neon-Rift-Survivor)** — gameplay systems + iteration
+I also learn by contributing to other developers' projects.
+
+- **[God's Eye View — PR #1066](https://github.com/bilawalsidhu/gods-eye-view/pull/1066):** proposed a fix for the Google Maps keyless tiles-token startup probe. **Open for review** (not merged).
+
+## 🎯 What's Next?
+
+Continue building my own AI systems, level up my game-development skills, and make my public projects easier to **run, test, and explore**.
 
 <p align="center">
-  <strong>Build. Test. Learn. Improve.</strong>
+  <a href="https://github.com/dvilrgamerz?tab=repositories"><strong>Explore all repositories →</strong></a>
 </p>
+
+<p align="center"><sub>Made with curiosity, debugging, and a lot of iteration. ✨</sub></p>
