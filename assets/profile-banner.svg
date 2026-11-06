@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="title desc">
-<title id="title">Jenil Patel · DVILR — AI, software, and game development</title>
-<desc id="desc">Dark navy and violet developer portfolio banner with a glowing orbit graphic and the words Jenil Patel, building software, AI, and games.</desc>
+<title id="title">DVILR — AI, software, and game development</title>
+<desc id="desc">Dark navy and violet developer portfolio banner with a glowing orbit graphic and the words DVILR, building software, AI, and games.</desc>
 <defs>
   <linearGradient id="back" x1="0" y1="0" x2="1200" y2="330" gradientUnits="userSpaceOnUse">
     <stop stop-color="#080F22"/><stop offset=".52" stop-color="#111836"/><stop offset="1" stop-color="#17103C"/>
@@ -21,7 +21,7 @@
   <rect x="50" y="45" width="4" height="237" rx="2" fill="#67E8F9"/>
   <rect x="73" y="43" width="338" height="28" rx="14" fill="#38BDF8" fill-opacity=".10" stroke="#38BDF8" stroke-opacity=".36"/>
   <text x="89" y="62" fill="#7DD3FC" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="2">DVILR  /  DEVELOPER PORTFOLIO</text>
-  <text x="72" y="146" fill="#F8FAFC" font-family="Segoe UI,Arial,sans-serif" font-size="65" font-weight="800" letter-spacing="-2">JENIL PATEL</text>
+  <text x="72" y="146" fill="#F8FAFC" font-family="Segoe UI,Arial,sans-serif" font-size="65" font-weight="800" letter-spacing="-2">DVILR</text>
   <text x="75" y="184" fill="#CBD5E1" font-family="Segoe UI,Arial,sans-serif" font-size="19">Building software, AI experiments &amp; playable worlds.</text>
   <rect x="74" y="222" width="136" height="34" rx="17" fill="#38BDF8" fill-opacity=".12" stroke="#38BDF8" stroke-opacity=".40"/>
   <text x="96" y="244" fill="#7DD3FC" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing=".6">AI RESEARCH</text>
