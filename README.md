@@ -84,6 +84,8 @@ I'm interested in **artificial intelligence, software engineering, interactive m
 
 **Also building:** [BrainForge](https://github.com/dvilrgamerz/brainrot) ([live demo](https://brainforgeai.netlify.app/)) — local-first recall and spaced-repetition learning; [PC & Laptop Doctor AI](https://github.com/dvilrgamerz/PC-Laptop-Doctor-AI) — Windows diagnostics.
 
+**Playable motorsport demos:** [F1 26 — 3D racing](https://f1-26-one.vercel.app/) · [DVILR Motorsport Manager — V3](https://f1-manager-five.vercel.app/). The linked GitHub source repositories are currently private.
+
 ## 🛠️ Languages & Tools
 
 **Languages and web**
