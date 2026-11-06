@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/profile-banner.svg" width="100%" alt="Jenil Patel | DVILR — AI Research, Game Development, Web Apps" />
+  <img src="./assets/profile-banner.svg" width="100%" alt="DVILR — AI Research, Game Development, Web Apps" />
 </p>
 
 <h1 align="center">Hey, I'm Jenil 👋</h1>
@@ -43,7 +43,7 @@ I'm interested in **artificial intelligence, software engineering, interactive m
 <h3>🌎 <a href="https://github.com/dvilrgamerz/GeoPulse">GeoPulse</a></h3>
 <p>A 3D Earth intelligence dashboard. Explore aircraft, satellites, earthquakes, disasters, and more; data freshness is explicitly labeled.</p>
 <p><sub><strong>STACK:</strong> CesiumJS · JavaScript · Public data APIs</sub></p>
-<p><a href="https://github.com/dvilrgamerz/GeoPulse"><strong>Source ↗</strong></a></p>
+<p><a href="https://geopulse1.netlify.app/"><strong>Live demo ↗</strong></a> · <a href="https://github.com/dvilrgamerz/GeoPulse"><strong>Source ↗</strong></a></p>
 </td>
 <td width="50%" valign="top">
 <h3>💰 <a href="https://github.com/dvilrgamerz/VaultBudget1">VaultBudget</a></h3>
@@ -82,7 +82,7 @@ I'm interested in **artificial intelligence, software engineering, interactive m
 </tr>
 </table>
 
-**Also building:** [PC & Laptop Doctor AI](https://github.com/dvilrgamerz/PC-Laptop-Doctor-AI) — a local-first Windows diagnostics app.
+**Also building:** [BrainForge](https://github.com/dvilrgamerz/brainrot) ([live demo](https://brainforgeai.netlify.app/)) — local-first recall and spaced-repetition learning; [PC & Laptop Doctor AI](https://github.com/dvilrgamerz/PC-Laptop-Doctor-AI) — Windows diagnostics.
 
 ## 🛠️ Languages & Tools
 
