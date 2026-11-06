@@ -68,21 +68,21 @@ I'm interested in **artificial intelligence, software engineering, interactive m
 </tr>
 <tr>
 <td width="50%" valign="top">
-<h3>🤖 <a href="https://github.com/dvilrgamerz/J.A.R.V.I.S.">J.A.R.V.I.S.</a></h3>
-<p>An experimental AI assistant interface exploring model routing, chat UX, interaction modes, and testing tools. Current inference is cloud-backed.</p>
-<p><sub><strong>STACK:</strong> Web app · AI integration · UX</sub></p>
-<p><a href="https://github.com/dvilrgamerz/J.A.R.V.I.S."><strong>Source ↗</strong></a></p>
+<h3>🧠 <a href="https://github.com/dvilrgamerz/brainrot">BrainForge</a></h3>
+<p>Local-first learning and active-recall practice with spaced repetition and offline progress.</p>
+<p><sub><strong>STACK:</strong> JavaScript · IndexedDB · PWA</sub></p>
+<p><a href="https://brainforgeai.netlify.app/"><strong>Live demo ↗</strong></a> · <a href="https://github.com/dvilrgamerz/brainrot"><strong>Source ↗</strong></a></p>
 </td>
 <td width="50%" valign="top">
-<h3>🏎️ <a href="https://github.com/dvilrgamerz/F1-game">DVILR GP</a></h3>
-<p>An original formula-style browser racer with pit strategy, DRS/ERS, and ongoing physics development. V3 is an active alpha.</p>
-<p><sub><strong>STACK:</strong> Three.js · TypeScript · Vite</sub></p>
-<p><a href="https://github.com/dvilrgamerz/F1-game"><strong>Source ↗</strong></a></p>
+<h3>🏙️ <a href="https://github.com/dvilrgamerz/MetroForge">MetroForge</a></h3>
+<p>An original browser-based city and region builder with municipal systems and local simulation.</p>
+<p><sub><strong>STACK:</strong> JavaScript · HTML5 · CSS</sub></p>
+<p><a href="https://github.com/dvilrgamerz/MetroForge"><strong>Source ↗</strong></a></p>
 </td>
 </tr>
 </table>
 
-**Also building:** [BrainForge](https://github.com/dvilrgamerz/brainrot) ([live demo](https://brainforgeai.netlify.app/)) — local-first recall and spaced-repetition learning; [PC & Laptop Doctor AI](https://github.com/dvilrgamerz/PC-Laptop-Doctor-AI) — Windows diagnostics.
+**Also building:** [PC & Laptop Doctor AI](https://github.com/dvilrgamerz/PC-Laptop-Doctor-AI) — Windows diagnostics.
 
 **Playable motorsport demos:** [F1 26 — 3D racing](https://f1-26-one.vercel.app/) · [DVILR Motorsport Manager — V3](https://f1-manager-five.vercel.app/). The linked GitHub source repositories are currently private.
 
@@ -116,7 +116,7 @@ I'm interested in **artificial intelligence, software engineering, interactive m
 
 I also learn by contributing to other developers' projects.
 
-- **[God's Eye View — PR #1066](https://github.com/bilawalsidhu/gods-eye-view/pull/1066):** proposed a fix for the Google Maps keyless tiles-token startup probe. **Open for review** (not merged).
+- **[God's Eye View — PR #1066](https://github.com/bilawalsidhu/gods-eye-view/pull/1066):** proposed a fix for the Google Maps keyless tiles-token startup probe. **Merged into upstream**.
 
 ## 🎯 What's Next?
 
